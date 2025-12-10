@@ -17,9 +17,10 @@ pipeline {
                 echo 'Deploying automatically'
             }
         }
-stage('Dev') {
+stage('Development') {
     steps {
         echo 'Developed automatically'
+        echo 'Successful'
     }
 }
 }
