@@ -17,5 +17,10 @@ pipeline {
                 echo 'Deploying automatically'
             }
         }
+stage('Dev') {
+    steps {
+        echo 'Developed automatically'
     }
+}
+}
 }
